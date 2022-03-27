@@ -11,6 +11,7 @@
   inputs.src-oldgtk3-master.ref   = "refs/heads/master";
   inputs.src-oldgtk3-master.owner = "stefansalewski";
   inputs.src-oldgtk3-master.repo  = "oldgtk3";
+  inputs.src-oldgtk3-master.dir   = "";
   inputs.src-oldgtk3-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
